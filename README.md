@@ -56,11 +56,9 @@ The data provided stock information for 12 different stocks for years 2017 and 2
 
 ### Refactoring
 Advantage
-- A great advantage of refactoring the code is greater efficiency in running your codes, especially when the code will be used again in the future. 
-  * Refactoring the code for my original VBA script greately enhanced the code, because this can be used for future years of stock and include many more stocks. The added efficiency will really help when the data is increased to accommadate the additional years and stocks.
+- A great advantage of refactoring the code is greater efficiency in running your codes, especially when the code will be used again in the future. Refactoring the code for my original VBA script greately enhanced the code, because this can be used for future years of stock and include many more stocks. The added efficiency will really help when the data is increased to accommadate the additional years and stocks.
 
-- Another advantage is that refactoring allows you to re-evaluate your code to insure that everything is running correctly and that you haven't forgotten any nuances that could be included to better enhance your analysis.
-  * Refactoring the code allowed me to put all of the parts together. The original code had the results and formatting in different subdirectories, required the user to run two different codes. Now they are all in one.
+- Another advantage is that refactoring allows you to re-evaluate your code to insure that everything is running correctly and that you haven't forgotten any nuances that could be included to better enhance your analysis. Refactoring the code allowed me to put all of the parts together. The original code had the results and formatting in different subdirectories, required the user to run two different codes. Now they are all in one.
   
 Disadvantage
 - One disadvantage of refactoring the code is the amount of time taken to redo code that does work, even though it is slow, and it is possible to introduce errors that were not in the original code.
