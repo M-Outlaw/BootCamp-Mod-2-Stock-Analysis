@@ -1,22 +1,22 @@
 # Stock Analysis with VBA
-Performing analysis on stock values to determine which is the best investment
+Performing analysis on stock values to determine which is the best investment.
 
 ## Overview of Project
 
 ### Purpose
-The purpose of this analysis to use VBA to help determin which stock would be the best to invest in based on stock data from 2017 and 2018. We are helping Steve review stocks and determine which stock would be best for his parents to invest in.
+The purpose of this analysis is to use VBA to help determine which stock would be the best to invest in based on stock data from 2017 and 2018. We are helping Steve review stocks and determine which stock would be best for his parents to invest in.
 
 ## Analysis and Challenges
 ### Data
-The data provided stock information for 12 different stocks for years 2017 and 2018. To better understand the stock data, we focused first on examining the data for just one stock during 2018. Steve's parents have an interest in the DAQO (DQ) stock, so this is the stock we will analyze first.
+The data provided stock information for 12 different stocks for years 2017 and 2018. To better understand the stock data, we focused first on examining the data for just one stock during 2018. Steve's parents had an interest in the DAQO (DQ) stock, so this is the stock we will analyze first.
 
 ### DQ Analysis
-- VBA code was created to determine the Total Daily volume and the percent return that DQ had during 2018. 
+- VBA code was created to determine the total daily volume and the percent return that DQ had during 2018. 
   * The code ran through all of the rows of the 2018 stock data. It looked for every instance of DQ and added the total number of shares traded each day. 
   * It also determined the starting price for the year and the ending price for the year to then determine the percent return over the year.
 
 ### All Stocks
-- The code was then extended to all of the stocks. An text input was added to determine which year to run the analysis on.
+- The code was then extended to all of the stocks. A text input was added to determine which year to run the analysis on.
 
 #### Analysis of 2017 and 2018 Stocks
 - After applying the code for the 2017 and 2018 stocks, the following tables were produced.
@@ -43,25 +43,25 @@ The data provided stock information for 12 different stocks for years 2017 and 2
 
 ## Results
 ### Further Analysis
-- To further analyze the data to determine which stock performed the best over the two years, the percent increase for both the total daily volume and returen were determined and is shown below.
+- To further analyze the data to determine which stock performed the best over the two years, the percent increase from 2017 to 2018 for both the total daily volume and return were determined and is shown below.
   * Seven of the stocks had a positive percent increase for their total daily volume.
-  * However, only one stock (RUN) had a positve percent increase for their return.
+  * However, only one stock (RUN) had a positive percent increase for their return.
 
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-2-Stock-Analysis/blob/main/Resources/Stock_2017_to_2018_Comparison.png" width="411" height="359"/>
 
 ### Recommendation
-- My recommendation for Steve to recommend to his parents that they invest in RUN.
-  * RUN had a postive return for both 2017 and 2018.
+- My recommendation is for Steve to recommend that his parents invest in RUN.
+  * RUN had a positive return for both 2017 and 2018.
   * RUN had a positive percent increase for both total daily volume and return between 2017 and 2018.
 
 ### Refactoring
 #### Advantage
 - A great advantage of refactoring the code is greater efficiency in running your codes, especially when the code will be used again in the future.
-  * Refactoring the code for my original VBA script greately enhanced the code, because this can be used for future years of stock and include many more stocks. The added efficiency will really help when the data is increased to accommadate the additional years and stocks.
+  * Refactoring the code for my original VBA script greatly enhanced the code, because this can be used for future years of stock and include many more stocks. The added efficiency will really help when the data is increased to accommodate the additional years and stocks.
 
-- Another advantage is that refactoring allows you to re-evaluate your code to insure that everything is running correctly and that you haven't forgotten any nuances that could be included to better enhance your analysis.
+- Another advantage is that refactoring allows you to re-evaluate your code to ensure that everything is running correctly and that you haven't forgotten any nuances that could be included to better enhance your analysis.
   * Refactoring the code allowed me to put all of the parts together. The original code had the results and formatting in different subdirectories, required the user to run two different codes. Now they are all in one.
   
 #### Disadvantage
 - One disadvantage of refactoring the code is the amount of time taken to redo code that does work, even though it is slow, and it is possible to introduce errors that were not in the original code.
-  * As discussed in the challenges I experienced, in refactoring I did introduce an error in my code. It was corrected, but it did take a bit of time to determine what the error was.
+  * As discussed in the challenges, I did introduce an error in my code while refactoring. It was corrected, but it did take a bit of time to determine what the error was.
